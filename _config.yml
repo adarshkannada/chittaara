@@ -34,6 +34,7 @@ nav:
  journal: "baseurl/journal/"
  gallery: "baseurl/gallery/"
  about: "baseurl/about/"
+ contact: "baseurl/contact/"
 
 # All translation keys
 translations:
