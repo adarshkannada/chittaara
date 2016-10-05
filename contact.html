@@ -12,15 +12,36 @@ header-img: "img/about_bg.JPG "
 	
 		<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
 		
-			<input type='hidden' name='redirect_to' value='</thanks.html >' />
-			<!-- all your input fields here.... -->
-			
-			<input type='text' placeholder="First Name" name='Name' /></br>
-			<input type='text' placeholder="Last Name" name='Name' /></br>
-			<input type="email" placeholder="Your email" id="email"/></br>
-			<input type='textarea' placeholder="Your Message" name='message' /></br>
-			<input type='submit' value='Send' />
-			
+		 <fieldset>
+        <div class="pure-control-group">
+            <label for="name">Username</label>
+            <input id="name" type="text" placeholder="Username">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Password">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="Email Address">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="foo">Supercalifragilistic Label</label>
+            <input id="foo" type="text" placeholder="Enter something here...">
+        </div>
+
+        <div class="pure-controls">
+            <label for="cb" class="pure-checkbox">
+                <input id="cb" type="checkbox"> I've read the terms and conditions
+            </label>
+
+            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+        </div>
+    </fieldset>
+	
 	</form>
   </body>
 </html>
