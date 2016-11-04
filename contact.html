@@ -6,40 +6,15 @@ header-img: "img/about_bg.JPG "
 ---
 
 <html>
-  <body> 
-
-    <form action="https://getsimpleform.com/messages?form_api_token=54544423b397543951f82c09c9295b24" method="post">
-	
-		<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-		
-		 <fieldset>
-        <div class="pure-control-group">
-            <label for="name">Name</label>
-            <input id="name" type="text" placeholder="Username">
-        </div>
-
-        <div class="pure-control-group">
-            <label for="password">Email Address</label>
-            <input id="password" type="password" placeholder="Password">
-        </div>
-
-        <div class="pure-control-group">
-            <label for="email">Contact No</label>
-            <input id="email" type="email" placeholder="Email Address">
-        </div>
-
-        <div class="pure-control-group">
-            <label for="foo">Message</label>
-            <input id="foo" type="text" placeholder="Enter your message...">
-        </div>
-
-		
-        <div class="pure-controls">
-            
-            <button type="submit" class="pure-button pure-button-primary">Send</button>
-        </div>
-    </fieldset>
-	
+  <body>
+	<form method="POST" action="http://formspree.io/adarshkannada@gmail.com">
+		<input name="name" placeholder="Your name" type="name">
+ 		<input name="mobile" placeholder="Your mobile number" type="tel">
+  		<input name="email" placeholder="Your email" type="email">
+  		<textarea name="message" placeholder="Your message"></textarea>
+  		<button type="submit">Send</button>
+  		<input type="hidden" name="_next" value=" chittaara/thanks.html " />
 	</form>
+    
   </body>
 </html>
