@@ -3,9 +3,6 @@ p h o t o r a m a
 
 ![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)
 
-
-![Speed Test](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/Website%20Speed%20Test.png)
-
 ----------
 
 ---> [DEMO](http://sunbliss.github.io/photorama/ "DEMO")  <---
@@ -22,14 +19,26 @@ It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-bl
 
 ----------
 
+The template has been **revised** as of *July 15th, 2016*
+
+----------
+
  **IMPORTANT!!!**
 ================
 
-###Before you begin: Change the URL and the BASEURL in the _config.yml
+###Before you begin: Change the URL and the BASEURL as well as the internal nav links in the _config.yml
 
 The **URL** should say `http://yourusername.github.io`
 
 The **BASEURL** should say `/repositoryname`
+
+**Internal nav** should say
+
+  nav:
+
+  - GALLERY: `"http://yourusername.github.io/repositoryname/gallery/"`
+  - JOURNAL: `"http://yourusername.github.io/repositoryname/journal/"`
+  - ABOUT: `"http://yourusername.github.io/repositoryname/about/`"
 
 If there are problems with loading assets like CSS files and images, make sure that both **URL** and **BASEURL** are set correctly!!! 
 
@@ -62,7 +71,7 @@ Usage
 
 - The homepage welcomes the visitors with 3 animated photos of your choice. It is recommended that all three are landscape orientated for best view.
 
-To change the welcome content at the far left of the Home page go here: `/index.html`
+To change the welcome content at the far left of the Home page go here: `/index.html` and fill the responding lines of the YAML with your desired text.
 
 ----------
 
@@ -93,4 +102,31 @@ When you add a tag or a category name in the front matter of a post, don't forge
 
 ----------
 
+All the credits and the helpers can be found at **ABOUT** page.
+
+
+----------
+
+Read <a href="http://sunbliss.github.io/photorama/journal/images-size-for-better-performance/">**this**</a> post if you want to ensure your website always loads fast.
+
+
+----------
+
 I hope you will find it useful for your projects, photographic or not.
+
+
+----------
+
+
+##License
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Filippo Oretti, Dario Andrei
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+

@@ -1,21 +1,24 @@
 # Site settings
-title: CHITTAARA
-email: "adarshkannada@outlook.com"
-description: "Travel and Photography"
-url: "http://adarshkannada.github.io"
-baseurl: /chittaara
+title: PHOTORAMA
+email: "mailto:adarshkannada@outlook.com"
+description: "Photo Journal"
+url: ""
+baseurl: "/photorama"
+#facebook_username: ""
+#twitter_username: ""
 instagram_username: ""
 github_username:  ""
+#deviantart_username: ""
 flickr_username: ""
 discus_shortname: ""
 share: true
 
 # Owner/author information
 owner:
-  name:   "Adarsh"
+  name:   photorama
   avatar: avatar.png
   favicon: favicon.ico
-  description: "Travel Photographer"
+  info: photography website template
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -30,11 +33,10 @@ comments :
 
 # Internal nav
 nav:
- journal: "baseurl/journal/"
- gallery: "baseurl/gallery/"
- about: "baseurl/about/"
- contact: "baseurl/contact/"
-
+  - GALLERY: "/photorama/gallery/"  
+  - OUR STORY: "/photorama/journal/"
+  - ABOUT: "/photorama/about/"
+  - CONTACT US: "/photorama/contact/"
 # All translation keys
 translations:
  # 404.html

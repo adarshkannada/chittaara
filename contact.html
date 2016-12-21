@@ -2,21 +2,64 @@
 layout: page
 title: "Contact"
 description: "You can meet us, Request for Photography or Travel arrangements. Also You can just say a Hello or send us your precious opinions."
-header-img: "img/about_bg.JPG " 
+header-img: "img/about-bg.jpg" 
 ---
 
-<html>
-  <body>
-	<form method="POST" action="http://formspree.io/adarshkannada@gmail.com">
-		<ul>
-			<li> <input name="name" placeholder="Your name" type="name"></li>
-			<li> <input name="mobile" placeholder="Your mobile number" type="tel"></li>
-			<li> <input name="email" placeholder="Your email" type="email"></li>
-			<li> <textarea name="message" placeholder="Your message"></textarea></li><br>
-			<button type="submit" value="send" >send</button>
-		</ul>
-  	
-	</form>
+<!-- <form method="POST" action="http://formspree.io/adarshkannada@gmail.com">
+        <ul>
+            <li><input name="name" placeholder="Your name" type="name"></li>
+            <li><input name="mobile" placeholder="Your mobile number" type="tel"></li>
+            <li><input name="email" placeholder="Your email" type="email"></li>
+            <li><textarea name="message" placeholder="Your message"></textarea></li><br>
+            <button type="submit" value="send" >Send</button>
+        </ul>
+      
+</form> -->
+
+
+<style>
+#contact input[type=text],#contact input[type=email],#contact input[type=tel],#contact textarea,#contact select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #555;
+}
+
     
-  </body>
-</html>
+#contact input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+</style>
+<div style="width:500px; margin: 0 auto">
+  <form id="contact" method="POST" action="http://formspree.io/adarshkannada@gmail.com">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="num">Number</label>
+    <input type="text" id="num" name="lastname">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="lastname">
+
+    <label for="message">Message</label>
+    <textarea id="message" placeholder="Your message" name="message" ></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
