@@ -32,6 +32,13 @@
   align-items: stretch;
   clear: both;
 }
+@media (max-width: 767px)
+{
+    .blockGroup-list {
+        margin: 0
+    } 
+}
+
 
 .blockGroup-list li
 {
@@ -131,8 +138,18 @@
     width: 60%;
     margin: 0 auto;
     -webkit-box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.1);
-    box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.1); 
 }
+
+@media (max-width: 767px)
+{
+    .blockGroup-list .postArticle-wrapper
+    {
+        width: 100%;
+    }
+    
+}
+
 
 .blockGroup-list .postArticle-wrapper:hover
 {
