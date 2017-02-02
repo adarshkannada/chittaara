@@ -56,7 +56,6 @@ images:
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
 							<h3>{{image.caption}}</h3>
-							<p>{{image.copyright}}</p>
 						</div>
 					</figcaption>
 				</figure>
@@ -98,7 +97,7 @@ images:
        },
       image: {
          titleSrc: function(item) {
-              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+              return item.el.attr('title');
             }
         }
           // other options
