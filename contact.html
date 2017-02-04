@@ -5,48 +5,8 @@ description: "You can meet us, Request for Photography or Travel arrangements. A
 header-img: "img/about-bg.jpg" 
 ---
 
-<!-- <form method="POST" action="http://formspree.io/adarshkannada@gmail.com">
-        <ul>
-            <li><input name="name" placeholder="Your name" type="name"></li>
-            <li><input name="mobile" placeholder="Your mobile number" type="tel"></li>
-            <li><input name="email" placeholder="Your email" type="email"></li>
-            <li><textarea name="message" placeholder="Your message"></textarea></li><br>
-            <button type="submit" value="send" >Send</button>
-        </ul>
-      
-</form> -->
-
-
-<style>
-#contact input[type=text],#contact input[type=email],#contact input[type=tel],#contact textarea,#contact select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: #555;
-}
-
-    
-#contact input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#contact input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-</style>
-<div style="width:500px; margin: 0 auto">
+<link rel="stylesheet" href="{{site.baseurl}}/css/contact.css">
+<div class="form-container">
   <form id="contact" method="POST" action="http://formspree.io/adarshkannada@gmail.com">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname">
