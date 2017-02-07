@@ -9,7 +9,7 @@ date:       2016-03-15
 header-img: "img/postcover/pc003.jpg"
 tags: [tag03, tag04]
 categories: [cat03, cat04]
-comments: false
+comments: true
 ---
 
 <p>Now this same morning the Wicked Witch came to the door of her castle and looked out with her one eye that could see far off.  She saw all her wolves lying dead, and the strangers still traveling through her country.  This made her angrier than before, and she blew her silver whistle twice.</p>
