@@ -61,14 +61,14 @@ layout: default
 
                 <br>
           <br>
-		
-		{% if page.author %}<strong>Article by:</strong> {{page.author}}{% endif %}
-		
-		
+			
     <br>
 
-
+	{% if page.author %}
                {% include signoff.html %} 
+	{% endif %}
+		
+		
     <hr class="small">
  {% if site.share %}{% include share.html %}{% endif %}
                         
