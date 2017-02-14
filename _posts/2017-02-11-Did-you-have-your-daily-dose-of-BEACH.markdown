@@ -2,7 +2,7 @@
 layout: "post"
 title: "Did you have your daily dose of BEACH"
 subtitle: "Malpe"
-author: Adarsh Kannada
+author: Rashmi
 active: "journal"
 image:
   feature: "pc007.jpg"
