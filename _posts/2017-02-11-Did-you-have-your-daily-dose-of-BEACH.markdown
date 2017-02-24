@@ -5,21 +5,21 @@ subtitle: "Malpe"
 author: Rashmi
 active: "journal"
 image:
-  feature: "pc007.jpg"
+  feature: "vijaya-vittala-temple.jpg"
 date: "2017-02-11"
-header-img: "img/postcover/pc007.jpg"
+header-img: "gallery/archive/g01/vijaya-vittala-temple.jpg"
 comments: "true"
 tags: [Karnataka, Karavali, Coast, Beach, Udupi]
 categories: [Travel]
 description: The day at the beach
 gallery1: 
-  - image_path: /img/galleries/g01/bg1.jpg
+  - image_path: /gallery/archive/g01/hemakuta.jpeg
     image-caption: IMAGE TITLE
     image-copyright: © chittaara
-  - image_path: /img/galleries/g01/bg2.jpg
+  - image_path: /gallery/archive/g01/jagadota-hampe.jpg
     image-caption: IMAGE TITLE
     image-copyright: © chittaara
-  - image_path: /img/galleries/g01/bg3.jpg
+  - image_path: /gallery/archive/g01/road-to-octogonal-bath.jpeg
     image-caption: IMAGE TITLE
     image-copyright: © chittaara 
 
