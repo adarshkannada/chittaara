@@ -31,6 +31,8 @@ comments :
   disqus :
     short_name : "chittaara"
 
+excerpt_separator: <!--more-->
+
 # Internal nav
 nav:
   - GALLERY: "/gallery/"  
@@ -59,6 +61,9 @@ tags_path: "/journal/tag/"
 gems: 
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems
+ - jekyll-seo-tag
 
 # SiteMap
 sitemap:
