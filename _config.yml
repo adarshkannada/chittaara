@@ -62,7 +62,7 @@ gems:
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems
+gems:
  - jekyll-seo-tag
 
 # SiteMap
