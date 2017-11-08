@@ -36,7 +36,7 @@ excerpt_separator: <!--more-->
 # Internal nav
 nav:
   - GALLERY: "/gallery/"  
-  - OUR STORY: "/journal/"
+#  - OUR STORY: "/journal/"
   - ABOUT: "/about/"
   - CONTACT US: "/contact/"
 # All translation keys
