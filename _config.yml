@@ -39,6 +39,7 @@ nav:
 #  - OUR STORY: "/journal/"
   - ABOUT: "/about/"
   - CONTACT US: "/contact/"
+  - Travel Plans: "/Travel-Plans/"
 # All translation keys
 translations:
  # 404.html
