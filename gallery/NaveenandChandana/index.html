@@ -1,0 +1,152 @@
+---
+layout: page
+title: "Naveen and Chandana"
+description: "Pre Wedding"
+active: gallery
+header-img: "gallery/archive/NaveenandChandana/nv10.jpg"
+album-title: "Naveen and Chandana"
+images:
+ - image_path: /gallery/archive/NaveenandChandana/nv1.jpg
+   caption:
+   mfp-title:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv2.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv3.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv4.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv5.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv6.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv7.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv8.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv9.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv10.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv11.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv12.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv13.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv14.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv15.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv16.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv17.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv18.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv19.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv20.jpg
+   caption:
+   copyright: © CHITTAARA
+ - image_path: /gallery/archive/NaveenandChandana/nv21.jpg
+   caption:
+   copyright: © CHITTAARA
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>{{image.caption}}</h3>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+          type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+      image: {
+         titleSrc: function(item) {
+              return item.el.attr('title');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+</body></html>
