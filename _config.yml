@@ -44,7 +44,7 @@ nav:
 # All translation keys
 translations:
  # 404.html
-  permalink: "/404.html"
+  permalink: "https://adarshkannada.github.io/chittaara/404.html"
 
 # Server
 destination:      	 ./_site
