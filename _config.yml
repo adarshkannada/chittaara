@@ -36,11 +36,11 @@ excerpt_separator: <!--more-->
 
 # Internal nav
 nav:
-  - GALLERY: "/gallery/"  
+  - GALLERY: "https://adarshkannada.github.io/chittaara/gallery/"  
 #  - OUR STORY: "/journal/"
-  - ABOUT: "/about/"
-  - CONTACT US: "/contact/"
-  - Travel Plans: "/Travel-Plans/"
+  - ABOUT: "https://adarshkannada.github.io/chittaara/about/"
+  - CONTACT US: "https://adarshkannada.github.io/chittaara/contact/"
+  - Travel Plans: "https://adarshkannada.github.io/chittaara/Travel-Plans/"
 # All translation keys
 translations:
  # 404.html
